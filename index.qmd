@@ -1,0 +1,28 @@
+# Pendahuluan
+
+Bab Pendahuluan menjadi landasan dan arah penelitian serta mengantar pembaca
+untuk memahami dokumen secara keseluruhan.
+
+## Latar Belakang
+
+Tuliskan dasar pemikiran, kebutuhan, dan alasan yang melatarbelakangi topik.
+
+## Rumusan Masalah
+
+Jelaskan persoalan utama yang akan diselesaikan.
+
+## Tujuan
+
+Tuliskan hasil yang ingin dicapai dan kaitannya dengan rumusan masalah.
+
+## Batasan Masalah
+
+Tuliskan ruang lingkup dan batasan penelitian.
+
+## Metodologi
+
+Uraikan tahapan yang dilakukan untuk menyelesaikan persoalan.
+
+## Sistematika Pembahasan
+
+Berikan ringkasan isi setiap bab.

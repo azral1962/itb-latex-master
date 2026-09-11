@@ -1,0 +1,16 @@
+# Tinjauan Pustaka
+
+Bab ini memuat dasar teori, kajian literatur, dan studi terkait. Contoh sitasi
+dapat ditulis sebagai [@knuth2001art].
+
+## Dasar Teori
+
+Uraikan teori yang langsung mendukung penyelesaian masalah.
+
+![Contoh diagram infrastruktur](../resources/chapter-2-infrastructure-diagram.png){#fig-infrastruktur width=80%}
+
+Pada @fig-infrastruktur ditunjukkan contoh penggunaan cross-reference Quarto.
+
+## Studi Terkait
+
+Bandingkan penelitian atau pekerjaan terdahulu dengan pendekatan yang diusulkan.

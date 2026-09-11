@@ -1,0 +1,3 @@
+# Rincian Kasus Uji
+
+Tuliskan rincian kasus uji, masukan, keluaran yang diharapkan, dan hasil aktual.
