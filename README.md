@@ -36,13 +36,13 @@ Setelah repositori dipublikasikan ke GitHub, pengguna dapat membuat proyek baru
 dengan:
 
 ```bash
-quarto use template ORGANISASI/NAMA-REPOSITORI
+quarto use template azral1962/itb-latex-master
 ```
 
 Untuk memasang formatnya saja ke proyek Quarto yang sudah ada:
 
 ```bash
-quarto add ORGANISASI/NAMA-REPOSITORI
+quarto add azral1962/itb-latex-master
 ```
 
 Format dapat dipilih secara eksplisit dengan `itb-thesis-pdf`.
