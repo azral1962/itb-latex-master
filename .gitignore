@@ -1,6 +1,7 @@
 /.quarto/
 /_book/
 /tmp/
+/if-itb-latex-master/
 /cover-ganesha.jpg
 /*.tex
 *.aux
