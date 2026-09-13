@@ -1,7 +1,9 @@
 project:
-  type: itb-thesis
+  type: itb-quarto-latex
 
 book:
+  # Gunakan judul yang ringkas, informatif, dan mencerminkan masalah, metode,
+  # atau kontribusi utama penelitian.
   title: "Judul Tugas Akhir, Tesis, atau Disertasi"
   author:
     - name: "Nama Lengkap Mahasiswa"
@@ -10,13 +12,16 @@ book:
   chapters:
     - index.qmd
     - chapters/02-tinjauan-pustaka.qmd
-    - chapters/03-analisis-perancangan.qmd
-    - chapters/04-evaluasi-pembahasan.qmd
-    - chapters/05-penutup.qmd
+    - chapters/03-metodologi.qmd
+    - chapters/04-hasil.qmd
+    - chapters/05-pembahasan.qmd
+    - chapters/06-kesimpulan.qmd
     - chapters/references.qmd
   appendices:
-    - appendices/instrumen-pengujian.qmd
-    - appendices/rincian-kasus-uji.qmd
+    - appendices/a-data-tambahan.qmd
+    - appendices/b-instrumen.qmd
+    - appendices/c-hasil-tambahan.qmd
+    - appendices/d-materi-teknis.qmd
 
 bibliography: references.bib
 
@@ -42,26 +47,33 @@ supervisors:
     nip: "123456789"
 
 abstract-id: |
-  Tuliskan abstrak Bahasa Indonesia di sini. Jelaskan latar belakang,
-  tujuan, metode, hasil utama, dan kesimpulan secara ringkas.
+  Tuliskan abstrak Bahasa Indonesia dalam satu uraian ringkas yang mencakup
+  konteks, masalah penelitian, tujuan, metode, hasil utama, serta kesimpulan
+  atau kontribusi penelitian.
 
 keywords-id:
+  # Cantumkan 4–7 istilah yang paling mewakili penelitian.
   - kata kunci pertama
   - kata kunci kedua
+  - kata kunci ketiga
+  - kata kunci keempat
 
 abstract-en: |
-  Write the English abstract here. Summarize the background, objective,
-  method, principal results, and conclusion.
+  Write the English abstract as one concise account of the context, research
+  problem, objective, method, main results, and conclusion or contribution.
 
 keywords-en:
+  # Use 4–7 terms that best represent the study.
   - first keyword
   - second keyword
+  - third keyword
+  - fourth keyword
 
 acknowledgements: |
   Tuliskan kata pengantar dan ucapan terima kasih di sini.
 
 format:
-  itb-thesis-pdf:
+  itb-quarto-latex-pdf:
     keep-tex: true
 
 crossref:

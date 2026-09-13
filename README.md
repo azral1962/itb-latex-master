@@ -1,7 +1,9 @@
-# Quarto ITB Thesis
+# ITB Quarto LaTeX
 
 Extension dan starter project Quarto Book untuk menulis dokumen ilmiah ITB
 (Tugas Akhir, Tesis, atau Disertasi) dan menghasilkan PDF melalui LaTeX.
+Struktur isi mengikuti alur penelitian dari masalah hingga kontribusi dan dapat
+diadaptasi untuk penelitian rekayasa dengan Q-Cycle.
 
 ## Mulai cepat
 
@@ -20,11 +22,12 @@ Proyek memerlukan Quarto serta distribusi LaTeX seperti TeX Live atau MiKTeX.
 
 ## Struktur
 
-- `_extensions/itb-thesis/` — project type dan format PDF extension.
+- `_extensions/itb-quarto-latex/` — project type dan format PDF extension.
 - `_quarto.yml` — metadata mahasiswa, program studi, pembimbing, dan urutan bab.
-- `index.qmd` — Bab I.
-- `chapters/` — Bab II sampai Bab V serta daftar pustaka.
-- `appendices/` — lampiran.
+- `index.qmd` — pendahuluan: masalah, gap, tujuan, dan pertanyaan penelitian.
+- `chapters/` — tinjauan pustaka, metodologi, hasil, pembahasan, kesimpulan,
+  dan daftar pustaka.
+- `appendices/` — data, instrumen, hasil tambahan, dan materi teknis.
 - `resources/` — gambar dan data yang digunakan di dalam bab.
 - `references.bib` — basis data referensi.
 - `if-itb-latex-master/` — templat LaTeX sumber yang dipertahankan sebagai
@@ -36,16 +39,16 @@ Setelah repositori dipublikasikan ke GitHub, pengguna dapat membuat proyek baru
 dengan:
 
 ```bash
-quarto use template azral1962/itb-latex-master
+quarto use template azral1962/itb-quarto-latex
 ```
 
 Untuk memasang formatnya saja ke proyek Quarto yang sudah ada:
 
 ```bash
-quarto add azral1962/itb-latex-master
+quarto add azral1962/itb-quarto-latex
 ```
 
-Format dapat dipilih secara eksplisit dengan `itb-thesis-pdf`.
+Format dapat dipilih secara eksplisit dengan `itb-quarto-latex-pdf`.
 
 ## Metadata halaman awal
 
@@ -60,3 +63,15 @@ Seluruh data yang biasanya tersebar pada beberapa berkas LaTeX tersedia di
 
 Jenis dokumen dapat diubah menjadi Tugas Akhir, Tesis, atau Disertasi cukup
 dengan mengganti metadata tersebut tanpa menyunting partial LaTeX.
+
+## Alur penulisan
+
+Struktur bab mengadaptasi konsep pada `anatomi.qmd`. Template memisahkan hasil
+faktual dari interpretasinya dan menggunakan alur:
+
+**Latar belakang → Masalah → Pengetahuan yang ada → Kesenjangan → Pertanyaan
+dan tujuan → Metodologi → Hasil → Pembahasan → Kontribusi → Kesimpulan**
+
+Untuk penelitian rekayasa, Bab Metodologi menyediakan pemetaan opsional ke
+Q-Cycle: **Q1 Problem → Q2 Functional Analysis → Q3 Architecture → Q4
+Construction & Evaluation**.
